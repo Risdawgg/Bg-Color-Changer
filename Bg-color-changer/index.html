@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BG-CHANGER</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="external.css" />
+  </head>
+  <body>
+    <div class="mt-[25%] w-[100%] m-auto sm:mt-[15%]">
+      <div
+        class="p-10 w-[80%] bg-white sm:gap-10 sm:w-[70%] m-auto rounded-3xl"
+      >
+        <div class="gap-5 grid grid-cols-4">
+          <button onclick="red()" id="red">Red</button>
+          <button onclick="pink()" id="pink">Pink</button>
+          <button onclick="green()" id="green">Green</button>
+          <button onclick="yellow()" id="yellow">Yellow</button>
+        </div>
+        <div class="w-[50%] m-auto gap-10 mt-10 grid grid-cols-1">
+          <button onclick="reset()" id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

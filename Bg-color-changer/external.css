@@ -1,0 +1,27 @@
+button {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+#red:hover {
+  background-color: red;
+  color: white;
+}
+
+#yellow:hover {
+  background-color: yellow;
+}
+
+#green:hover {
+  background-color: green;
+  color: azure;
+}
+
+#pink:hover {
+  background-color: pink;
+}
+
+#reset:hover {
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
